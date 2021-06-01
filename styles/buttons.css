@@ -1,0 +1,13 @@
+.btn {
+  @apply px-2.5 py-2.5 rounded inline-flex items-center text-sm font-normal whitespace-nowrap outline-none cursor-pointer;
+}
+
+.btn-black {
+  @apply text-white bg-black;
+}
+
+@responsive {
+  .btn-red {
+    @apply text-white bg-red-500;
+  }
+}
